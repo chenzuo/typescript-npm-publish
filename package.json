@@ -8,7 +8,8 @@
     "build": "tsc -p .",
     "rebuild": "npm run build",
     "test": "jest --verbose --coverage",
-    "test-debug": "node --inspect-brk node_modules/.bin/jest --runInBand"
+    "test-debug": "node --inspect-brk node_modules/.bin/jest --runInBand",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js - - -R spec"
   },
   "jest": {
     "transform": {
@@ -33,6 +34,7 @@
       "/(node_modules|lib|coverage|types)/"
     ]
   },
+  "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js - - -R spec",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chenzuo/typescript-npm-publish.git"
