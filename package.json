@@ -1,7 +1,7 @@
 {
   "name": "typescript-npm-publish",
-  "version": "1.0.0",
-  "description": "typescript-npm-publish",
+  "version": "1.0.1",
+  "description": "typescript-npm-publish<br/>[![Build Status](https://travis-ci.com/chenzuo/typescript-npm-publish.svg?branch=master)](https://travis-ci.com/chenzuo/typescript-npm-publish)",
   "main": "index.js",
   "scripts": {
     "prepare": "npm run rebuild",
