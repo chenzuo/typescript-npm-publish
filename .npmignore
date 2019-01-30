@@ -1,0 +1,4 @@
+# 排除 lib文件
+lib/*.*
+coverage/*.*
+node_modules/*.*
